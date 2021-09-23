@@ -4,7 +4,7 @@
 
 A *package manager* is a command line tool that allows you to install and manage software. You can use a package manager to install all of the software listed here.
 
-The package manager that we'll be using for this guide is called Homebrew. It's a command-line installer for MacOS, which means that you'll have to be running a macOS in order to use. If you are using a Windows machine the guide [here](https://github.com/210614-JavaFS/Enviroment-Setup) should be much more useful for you. The examples provided here are utilizing macvscodeOS Catalina version 10.15.5.
+The package manager that we'll be using for this guide is called Homebrew. It's a command-line installer for MacOS, which means that you'll have to be running a macOS in order to use. If you are using a Windows machine the guide [here](https://github.com/210927-JavaFS/Enviroment-Setup) should be much more useful for you. The examples provided here are utilizing macvscodeOS Catalina version 10.15.5.
 
 ## Step 1: Install Homebrew
 
@@ -120,18 +120,10 @@ If your installation was successful, you should now be able to search for "dbeav
 ## Step 7: Install Apache Tomcat 9
 Follow these [instructions](https://medium.com/@jeongwhanchoi/how-to-install-apache-tomcat-on-mac-os-x-605b1cb55252). Make sure to install the latest version of Tomcat 9. 
 
-## Step 8: Install Postman
-
-The following is the single command required to install Postman on macOS using Homebrew:
-
-<code>brew cask install postman</code>
-
-## Step 9: Install Visual Studio Code
+## Step 8: Install Visual Studio Code
 
 The following is the single command required to install Visual Studio Code on macOS using Homebrew:
 
 <code>brew cask install visual-studio-code</code>
 
 If you encounter problems and unable to install any of these applications with homebrew, refer to the manual download section of the [Environment Setup Guide](https://github.com/210614-JavaFS/Enviroment-Setup) to install it manually instead. 
-
-
